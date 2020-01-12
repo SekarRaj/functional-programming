@@ -32,3 +32,20 @@ In terms of Category Theory,
 *Surjective* category of functions is called *epimorphism* or *epic morphism*.
 *Injective* category of functions is called *monomorphism* or *monic morphism*. 
 
+## Epimorphism
+
+f::a->b is an epimorphism when 
+For every element in category *c*, for every pair of morphisms *g1*,*g2*::b->c
+if the composition *g1 after f* = *g2 after f*, then *g1*=*g2*
+
+## Monomorphism
+
+f::a->b is an monomorphism when 
+For every element in category *c*, for every pair of morphisms *g1*,*g2*::c->a
+if the composition *f after g1* = *f after g2*, then *g1*=*g2*
+
+In terms of category theory, if categories are Epimorhic and Monomorhic, still it is NOT **isomorphic**.
+
+## Predicates
+
+Functions that return boolean are called predicates.
